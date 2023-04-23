@@ -614,8 +614,6 @@ header .container-flex span {
 /* Hero */
 
 .hero-flex {
-    height: calc(100vh - 60px);
-    height: calc(100svh - 60px);
     display: flex;
     align-items: center;
 }
@@ -838,5 +836,12 @@ footer div {
     }
     .hero-primary-cont .btn-classic {
         margin-right: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-flex {
+        height: calc(100vh - 60px);
+        height: calc(100svh - 60px);
     }
 }
