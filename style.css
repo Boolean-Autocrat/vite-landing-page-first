@@ -131,7 +131,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
+    content: "";
     content: none;
 }
 
@@ -140,15 +140,15 @@ table {
     border-spacing: 0;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 
-input[type=search] {
+input[type="search"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     -webkit-box-sizing: content-box;
@@ -505,7 +505,7 @@ textarea {
     --heading-blue: hsl(229, 70%, 12%);
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -680,7 +680,7 @@ header .container-flex span {
 .fc-text span {
     font-weight: 400;
     font-size: 0.75rem;
-    color: #5D6970;
+    color: #5d6970;
     line-height: 1.25rem;
 }
 
@@ -778,14 +778,14 @@ footer div {
 }
 
 .upper-line {
-    border-top: 1px solid #CDD1D4;
+    border-top: 1px solid #cdd1d4;
     margin-bottom: 1em;
 }
 
 .ft-company-cc {
     font-weight: 500;
     font-size: 0.85rem;
-    color: #939EA4;
+    color: #939ea4;
 }
 
 .ft-company-label {
