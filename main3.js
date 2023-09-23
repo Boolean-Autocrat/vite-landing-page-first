@@ -1,1 +1,1 @@
-console.log("Special")
+console.log("Special Post");
